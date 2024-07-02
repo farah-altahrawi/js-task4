@@ -1,0 +1,40 @@
+.recipes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+.recipe{
+    width: 30%;
+}
+.recipe img{
+    width: 300px;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    color: rgb(189, 62, 15);
+}
+.title{
+    font-size: 1.5rem;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align:center;
+}
+@media (max-width: 1062px) {
+    .recipe {
+        width: 40%;
+    }
+}
+@media (max-width: 816px) {
+    .recipe {
+        width: 100%;
+    }
+    .recipe img{
+        width: 450px;
+        height: 450px;
+    }
+}
